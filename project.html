@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>project</title>
+</head>
+<body>
+    <h1>arrays</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var fav=["sushantsinghrajput","cristianoronaldo","mahendrasinghdhoni","sunilchhetri","mohammedfaiz"];
+        document.getElementById("p1").innerHTML=fav[2];
+        document.getElementById("p2").innerHTML=fav;
+        document.getElementById("p3").innerHTML=fav.join("+");
+        fav.pop();
+        document.getElementById("p4").innerHTML=fav;
+    </script>
+</body>
+</html>
