@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>activity3</title>
+</head>
+<body>
+    <h1>call stack</h1>
+    <p id="p1"></p>
+    <script>
+        function add(a,b){
+      return a+b;
+        }
+        function avg(a,b){
+      return add(a,b)/2;
+        }
+        let result=avg(700,800);
+        document.getElementById("p1").innerHTML=result;
+    </script>
+</body>
+</html>
